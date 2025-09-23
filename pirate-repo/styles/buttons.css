@@ -1,0 +1,30 @@
+/* Pirate-themed buttons */
+button {
+  background-color: gold;
+  border: 2px solid darkred;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+  transform: scale(1.05);
+}
+
+/* Extra dummy buttons for noise */
+.button1 { color: white; background: crimson; }
+.button2 { color: black; background: orange; }
+.button3 { color: yellow; background: green; }
+.button4 { color: blue; background: pink; }
+.button5 { color: purple; background: cyan; }
+
+/* Generate dummy repetitive classes to inflate file */
+.button6, .button7, .button8, .button9, .button10 {
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 16px;
+}

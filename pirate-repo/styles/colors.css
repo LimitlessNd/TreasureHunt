@@ -1,0 +1,27 @@
+/* Pirate-themed colors */
+body { background-color: #f4e1c1; color: #333; }
+h1, h2, h3 { color: darkred; }
+p { color: darkslategray; }
+
+/* Repetitive dummy color classes to inflate file */
+.red { color: red; }
+.green { color: green; }
+.blue { color: blue; }
+.gold { color: gold; }
+.silver { color: silver; }
+.bronze { color: #cd7f32; }
+.black { color: black; }
+.white { color: white; }
+.brown { color: brown; }
+.orange { color: orange; }
+
+/* Background colors */
+.bg-red { background-color: red; }
+.bg-green { background-color: green; }
+.bg-blue { background-color: blue; }
+.bg-gold { background-color: gold; }
+.bg-silver { background-color: silver; }
+.bg-brown { background-color: brown; }
+
+/* Extra dummy classes for noise */
+.bg1, .bg2, .bg3, .bg4, .bg5 { height: 20px; width: 100px; margin: 2px; }

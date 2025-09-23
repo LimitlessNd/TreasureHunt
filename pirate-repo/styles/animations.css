@@ -1,0 +1,26 @@
+/* Dummy animations for more content */
+@keyframes shake {
+  0% { transform: translate(0px, 0px); }
+  25% { transform: translate(5px, -5px); }
+  50% { transform: translate(-5px, 5px); }
+  75% { transform: translate(5px, 5px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.pirate-shake {
+  animation: shake 1s infinite;
+}
+
+@keyframes fade {
+  0% {opacity:0;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+
+.fade-in-out {
+  animation: fade 3s infinite;
+}
+
+/* Add filler classes to inflate file */
+div { margin:5px; padding:5px; border:1px solid #000; }
+span { font-weight:bold; color:red; }

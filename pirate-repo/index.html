@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pirate Login</title>
+<link rel="stylesheet" href="styles/buttons.css">
+<link rel="stylesheet" href="styles/colors.css">
+</head>
+<body>
+<h1>🏴‍☠️ Pirate Login 🏴‍☠️</h1>
+<form id="loginForm">
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button type="submit">Set Sail!</button>
+  <button type="button" class="button1">Dummy Button 1</button>
+  <button type="button" class="button2">Dummy Button 2</button>
+  <button type="button" class="button3">Dummy Button 3</button>
+</form>
+
+<p id="error"></p>
+
+<script src="secret/credentials.js"></script>
+<script>
+// Dummy login script
+const form = document.getElementById('loginForm');
+const error = document.getElementById('error');
+
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+  if(username === USERNAME && password === PASSWORD){
+    window.location.href = "treasure.html";
+  } else {
+    error.textContent = "⚓ Wrong coordinates! Try again, matey!";
+  }
+});
+
+// Dummy loops to inflate file
+for(let i=0; i<100; i++){
+  console.log(`Login page dummy log #${i}`);
+}
+</script>
+</body>
+</html>

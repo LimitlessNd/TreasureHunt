@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pirate Crew</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<h1>🏴‍☠️ Pirate Crew 🏴‍☠️</h1>
+<ul id="crewList"></ul>
+
+<script src="data/crew.json"></script>
+<script>
+const crew = [
+  {"name":"Jack Sparrow","rank":"Captain"},
+  {"name":"Will Turner","rank":"First Mate"},
+  {"name":"Elizabeth Swann","rank":"Navigator"},
+  {"name":"Gibbs","rank":"Quartermaster"},
+  {"name":"Anne Bonny","rank":"Pirate"},
+  {"name":"Calico Jack","rank":"Pirate"}
+];
+
+// Dummy loop to bloat the page
+for(let i=0;i<100;i++){
+    crew.push({name:`Pirate #${i}`, rank:"Deckhand"});
+}
+
+const crewList = document.getElementById('crewList');
+crew.forEach(member=>{
+    const li = document.createElement('li');
+    li.textContent = `${member.name} - ${member.rank}`;
+    crewList.appendChild(li);
+});
+</script>
+</body>
+</html>

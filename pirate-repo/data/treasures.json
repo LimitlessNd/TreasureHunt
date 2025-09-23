@@ -1,0 +1,16 @@
+[
+  {"item":"Pirates","x":"A","y":1},
+  {"item":"Ring","x":"C","y":4},
+  {"item":"1 Silver Piece","x":"D","y":2},
+  {"item":"Sword","x":"F","y":3},
+  {"item":"Pearls","x":"E","y":5},
+  {"item":"Crown","x":"B","y":6},
+  {"item":"Diamond","x":"C","y":2},
+  {"item":"Potion","x":"F","y":1},
+  {"item":"1 Silver Piece","x":"A","y":5},
+  {"item":"Key","x":"D","y":6},
+  {"item":"Gems","x":"E","y":2},
+  {"item":"2 Silver Pieces","x":"F","y":4},
+  {"item":"Bag of Gold","x":"A","y":3},
+  {"item":"Treasure Chest","x":"B","y":3}
+]

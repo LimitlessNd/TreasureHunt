@@ -1,0 +1,10 @@
+[
+  {"name":"Black Pearl","captain":"Jack Sparrow","crew":50,"type":"Galleon"},
+  {"name":"Flying Dutchman","captain":"Davy Jones","crew":100,"type":"Ghost Ship"},
+  {"name":"Queen Anne's Revenge","captain":"Blackbeard","crew":80,"type":"Frigate"},
+  {"name":"Jolly Roger","captain":"Calico Jack","crew":40,"type":"Sloop"},
+  {"name":"Sea Serpent","captain":"Anne Bonny","crew":60,"type":"Brig"},
+  {"name":"Red Fang","captain":"Barbossa","crew":55,"type":"Galleon"},
+  {"name":"Storm Rider","captain":"Henry Morgan","crew":70,"type":"Frigate"}
+]
+

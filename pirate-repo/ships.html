@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pirate Ships</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<h1>🏴‍☠️ Pirate Ships 🏴‍☠️</h1>
+<ul id="shipList"></ul>
+
+<script src="data/ships.json"></script>
+<script>
+const ships = [
+    {"name":"Black Pearl","captain":"Jack"},
+    {"name":"Flying Dutchman","captain":"Davy Jones"},
+    {"name":"Queen Anne's Revenge","captain":"Blackbeard"}
+];
+
+// Dummy expansion
+for(let i=0;i<50;i++){
+    ships.push({name:`Pirate Ship #${i}`, captain:`Captain #${i}`});
+}
+
+const shipList = document.getElementById('shipList');
+ships.forEach(ship=>{
+    const li = document.createElement('li');
+    li.textContent = `${ship.name} - Captain: ${ship.captain}`;
+    shipList.appendChild(li);
+});
+</script>
+</body>
+</html>

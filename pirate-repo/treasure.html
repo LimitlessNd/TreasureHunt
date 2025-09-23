@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Treasure Found!</title>
+<link rel="stylesheet" href="styles/colors.css">
+<link rel="stylesheet" href="styles/buttons.css">
+</head>
+<body>
+<h1>🏆 Treasure Map Coordinates 🏆</h1>
+<p>Congratulations, Captain! You've found the hidden treasure. 🏴‍☠️</p>
+
+<ul id="treasureList"></ul>
+
+<script src="data/loot.json"></script>
+<script>
+// Display loot
+let treasure = [
+  {"item":"gold coins","quantity":500,"location":"Skull Island"},
+  {"item":"ruby","quantity":30,"location":"Cursed Island"},
+  {"item":"emerald","quantity":20,"location":"Black Lagoon"}
+];
+
+// Dummy expansion to bloat the page
+for(let i=0;i<100;i++){
+  treasure.push({item:`Fake Treasure #${i}`, quantity:Math.floor(Math.random()*100), location:`Fake Island #${i}`});
+}
+
+const treasureList = document.getElementById('treasureList');
+treasure.forEach(t=>{
+  const li = document.createElement('li');
+  li.textContent = `${t.item} - Qty: ${t.quantity} - Location: ${t.location}`;
+  treasureList.appendChild(li);
+});
+</script>
+
+<!-- Dummy buttons for noise -->
+<button class="button4">Dummy Button 4</button>
+<button class="button5">Dummy Button 5</button>
+
+<!-- Dummy logs -->
+<script>
+for(let i=0;i<100;i++){
+  console.log(`Treasure page dummy log #${i}`);
+}
+</script>
+</body>
+</html>

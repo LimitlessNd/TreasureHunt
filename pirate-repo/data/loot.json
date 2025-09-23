@@ -1,0 +1,9 @@
+[
+  {"item":"gold coin","quantity":500,"location":"Skull Island"},
+  {"item":"ruby","quantity":30,"location":"Cursed Island"},
+  {"item":"emerald","quantity":20,"location":"Black Lagoon"},
+  {"item":"pearl","quantity":50,"location":"Shipwreck Cove"},
+  {"item":"ancient map","quantity":2,"location":"Skull Island"},
+  {"item":"silver dagger","quantity":10,"location":"Black Lagoon"},
+  {"item":"treasure chest","quantity":5,"location":"Cursed Island"}
+]

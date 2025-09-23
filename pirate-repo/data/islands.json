@@ -1,0 +1,10 @@
+[
+  {"name":"Skull Island","x":23,"y":45,"dangerLevel":"High"},
+  {"name":"Cursed Island","x":78,"y":12,"dangerLevel":"Extreme"},
+  {"name":"Black Lagoon","x":54,"y":30,"dangerLevel":"Medium"},
+  {"name":"Shipwreck Cove","x":12,"y":99,"dangerLevel":"High"},
+  {"name":"Mermaid Bay","x":65,"y":80,"dangerLevel":"Low"},
+  {"name":"Tortuga","x":90,"y":10,"dangerLevel":"Medium"},
+  {"name":"Dead Man's Chest","x":44,"y":55,"dangerLevel":"Extreme"}
+]
+
